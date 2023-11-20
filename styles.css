@@ -1,0 +1,150 @@
+
+
+
+
+
+
+
+#navbar{
+    display: flex;
+    align-items:center;
+ }
+#navbar ul{
+    display:flex;
+    list-style: none;
+ }#navabr ul li{
+    list-style: none;
+    font-size: 1.3rem;
+ }
+ #navbar ul li a{
+        color:black;
+        padding: 3px 22px;
+        text-decoration:black;
+   }
+   #navbar ul li a:hover{
+        color:blue;
+        display:block;
+        padding: 3px 22px;
+        border-radius: 25px;
+        text-decoration:none;
+        z-index:-1;
+        opacity:0.89;
+   }
+   .home{
+    display: flex;
+    flex-direction: column;
+    padding:3px 22px;
+    height:628px;
+    align-items:center;
+    justify-content: center;
+    left:0px;
+   }
+    .home
+    {
+    position:absolute;
+    background:url("bg.jpg");
+    background-repeat:no-repeat;
+    text-shadow: 2px 2px black;
+    outline:1px grey;
+
+    height:55%;
+    width:100%;
+    padding-top: 30px;
+   }
+   .home h1{
+    color:whitesmoke;
+    text-shadow: black;
+     text-align: center;
+    font-size: 100px;
+    font-family:sans-serif;
+    
+    
+   }
+   
+   .primary{
+    font-size: 1.8rem;
+    font-family:sans-serif;
+    padding:15px;
+   }
+   .button{
+     padding:6px 20px;
+     border: 2px solid white;
+     border-radius:20px;
+     background-color:blanchedalmond;
+     margin:20px;
+     font-size:2.8rem;
+     cursor:pointer;
+   }
+   .h-primary{
+    text-align: center;
+    font-size: 3.8rem;
+    padding: 58px;
+    font-family:sans-serif;
+   }
+   .h-secondary{
+    font-size: 2.3rem;
+    padding:8px;
+   }
+   .services{
+    margin-top:34%;
+   }
+   #services{
+    align-items:center;
+    text-align: center;
+    font-family:sans-serif;
+    margin: 34px;
+    display:flexbox;
+    flex-direction:column;
+    padding-bottom:20px;
+
+    
+    }
+   #services .box{
+    width: 400px;
+    display: inline-block;
+    border: 2px solid black;
+    padding :15px;
+    margin: 3px 6px;
+    border-radius: 23px;
+    background-color:rgb(188, 184, 184);
+   }
+   #servies .box img{
+    height:100px;
+    margin:auto;
+    display:block;
+   }
+   #about{
+    align-items:center;
+    font-family: sans-serif;
+    padding:12px;
+    font-size:1.5rem;
+   }
+   #contact{
+    position:relative;
+
+   }
+   #contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:34px;
+   }
+   #contact-box input,
+   #contact-box textarea{
+    width: 100%;
+    padding:0.5rem;
+    border-radius:9px ;
+    font-size:1.1rem;
+   }
+   #contact-box form{
+     width: 40%
+   }
+   #contact-box label{
+    font-size: 1.3rem;
+    font-family: sans-serif;
+   }
+   footer{
+    background:black;
+    color:white;
+    text-align: center;
+   }
